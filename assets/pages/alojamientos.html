@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="/assets/img/Alojamientos.png" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+
+    <title>LodGing - Alojamientos</title>
+</head>
+
+<body>
+    <!--==================== LOADING ANIMATION ====================-->
+    <section class="loader" id="loader">
+        <div class="lds-spinner">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <h1>Cargando...</h1>
+    </section>
+
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo2">
+                LODGING <i class='bx bxs-home-alt-2'></i>
+            </a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="/index.html" class="nav__link">
+                            <i class='bx bx-home-alt-2'></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#popular" class="nav__link active-link">
+                            <i class='bx bx-building-house'></i>
+                            <span>Alojamientos</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/index.html" class="nav__link">
+                            <i class='bx bx-award'></i>
+                            <span>Valores</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/index.html" class="nav__link">
+                            <span>Contactos</span>
+                            <i class='bx bx-phone'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Theme change button -->
+            <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+            <a href="/assets/pages/login.html" class="nav__button button">Iniciar sesión</a>
+        </nav>
+    </header>
+
+    <!--==================== HOME ====================-->
+
+    <div class="home__container container grid">
+    </div>
+    <div class="container">
+
+        <span class="section__subtitle">¡Reserva ahora!</span>
+        <h2 class="section__title">
+            Encuentre aquí las pensiones que se acoplen a su necesidad <span>.</span>
+        </h2>
+
+        <div class="search-box">
+            <i class="bx bx-search"></i>
+            <input type="text" placeholder="Buscar una Pensión">
+        </div>
+        <div class="list-container">
+            <div class="left-col">
+                <div class="house">
+                    <div class="house-img">
+                        <a href="house.html"><img src="/assets/img/image-s1.png"></a>
+                    </div>
+                    <div class="house-info">
+                        <p>Private Villa in San Francisco</p>
+                        <h3>Deluxe Queen Room With Street View</h3>
+                        <p>1 Bedroom / 1 Bathroom / Wifi / Kitchen</p>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                        <div class="house-price">
+                            <p>2 Guest</p>
+                            <h4>$ 100 <span>/ day</span></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="house">
+                    <div class="house-img">
+                        <img src="/assets/img/image-s2.png">
+                    </div>
+                    <div class="house-info">
+                        <p>Private Villa in San Francisco</p>
+                        <h3>Deluxe Queen Room With Street View</h3>
+                        <p>1 Bedroom / 1 Bathroom / Wifi / Kitchen</p>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                        <div class="house-price">
+                            <p>2 Guest</p>
+                            <h4>$ 100 <span>/ day</span></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="house">
+                    <div class="house-img">
+                        <img src="/assets/img/image-s3.png">
+                    </div>
+                    <div class="house-info">
+                        <p>Private Villa in San Francisco</p>
+                        <h3>Deluxe Queen Room With Street View</h3>
+                        <p>1 Bedroom / 1 Bathroom / Wifi / Kitchen</p>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                        <div class="house-price">
+                            <p>2 Guest</p>
+                            <h4>$ 100 <span>/ day</span></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="house">
+                    <div class="house-img">
+                        <img src="/assets/img/image-s4.png">
+                    </div>
+                    <div class="house-info">
+                        <p>Private Villa in San Francisco</p>
+                        <h3>Deluxe Queen Room With Street View</h3>
+                        <p>1 Bedroom / 1 Bathroom / Wifi / Kitchen</p>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                        <div class="house-price">
+                            <p>2 Guest</p>
+                            <h4>$ 100 <span>/ day</span></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="house">
+                    <div class="house-img">
+                        <img src="/assets/img/image-s5.png">
+                    </div>
+                    <div class="house-info">
+                        <p>Private Villa in San Francisco</p>
+                        <h3>Deluxe Queen Room With Street View</h3>
+                        <p>1 Bedroom / 1 Bathroom / Wifi / Kitchen</p>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                        <div class="house-price">
+                            <p>2 Guest</p>
+                            <h4>$ 100 <span>/ day</span></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="house">
+                    <div class="house-img">
+                        <img src="/assets/img/image-s6.png">
+                    </div>
+                    <div class="house-info">
+                        <p>Private Villa in San Francisco</p>
+                        <h3>Deluxe Queen Room With Street View</h3>
+                        <p>1 Bedroom / 1 Bathroom / Wifi / Kitchen</p>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                        <div class="house-price">
+                            <p>2 Guest</p>
+                            <h4>$ 100 <span>/ day</span></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-col">
+                <div class="sidebar">
+                    <h2>Select Filters</h2>
+                    <h3>Property Type</h3>
+                    <div class="filter">
+                        <input type="checkbox">
+                        <p>House</p> <span>(0)</span>
+                    </div>
+                    <div class="filter">
+                        <input type="checkbox">
+                        <p>Hostel</p> <span>(0)</span>
+                    </div>
+                    <div class="filter">
+                        <input type="checkbox">
+                        <p>Flat</p> <span>(0)</span>
+                    </div>
+                    <div class="filter">
+                        <input type="checkbox">
+                        <p>Villa</p> <span>(0)</span>
+                    </div>
+                    <div class="filter">
+                        <input type="checkbox">
+                        <p>Guest Suite</p> <span>(0)</span>
+                    </div>
+                    <h3>Amenities</h3>
+                    <div class="filter">
+                        <input type="checkbox">
+                        <p>Air Conditioning</p> <span>(0)</span>
+                    </div>
+                    <div class="filter">
+                        <input type="checkbox">
+                        <p>Wifi</p> <span>(0)</span>
+                    </div>
+                    <div class="filter">
+                        <input type="checkbox">
+                        <p>Gym</p> <span>(0)</span>
+                    </div>
+                    <div class="filter">
+                        <input type="checkbox">
+                        <p>Pool</p> <span>(0)</span>
+                    </div>
+                    <div class="filter">
+                        <input type="checkbox">
+                        <p>Kitchen</p> <span>(0)</span>
+                    </div>
+
+                    <div class="sidebar-link">
+                        <a href="#">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="pagination">
+
+            <i class='bx bx-chevron-left'></i>
+            <span class="current">1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>&middot; &middot; &middot; &middot;</span>
+            <span>20</span>
+            <i class='bx bx-chevron-right'></i>
+        </div>
+
+    </div>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div>
+                <a href="" class="footer__logo">
+                    LodGing <i class='bx bxs-home-alt-2'></i>
+                </a>
+                <p class="footer__description">
+                    Nuestra visión es hacer que todas <br>
+                    las personas encuentren el mejor <br>
+                    lugar de residencia para ellos.
+                </p>
+            </div>
+
+            <div class="footer__content">
+                <div>
+                    <h3 class="footer__title">
+                        Acerca de
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Sobre nosotros</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Características</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Noticias y Blogs</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">
+                        Compañía
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">¿Cómo trabajamos?</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Capital</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Seguridad</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">
+                        Soporte
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Preguntas frecuentes</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Centro de apoyo</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Contacta con nosotros</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">
+                        Redes Sociales
+                    </h3>
+
+                    <ul class="footer__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-facebook-circle'></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-instagram-alt'></i>
+                        </a>
+                        <a href="https://www.twitter.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-twitter'></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__info container">
+            <span class="footer__copy">
+                &#169; LodGing. Todos los derechos reservados
+            </span>
+
+            <div class="footer__privacy">
+                <a href="#">Términos y condiciones</a>
+                <a href="#">Política de privacidad</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-chevrons-up'></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="/assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="/assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>
