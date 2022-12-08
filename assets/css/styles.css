@@ -1625,7 +1625,6 @@ body.dark-theme {
   margin: 20px 0 10px;
 }
 
-
 .sidebar-link{
   text-align: right;
   margin: 20px 0;
@@ -1837,4 +1836,5 @@ body.dark-theme {
   .contact-host{
       margin: 40px 0;
   }
+  
 }

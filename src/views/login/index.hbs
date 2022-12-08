@@ -1,0 +1,38 @@
+<main class="main">
+        <!--==================== LOGIN ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Iniciar <br> Sesión
+                    </h1>
+                    <p class="home__description">
+                        
+                    </p>
+
+                    <form action="" method="POST" class=""> 
+
+                            <input type="email" name="Email" placeholder="Correo" required>
+       
+                            <input type="password" name="password" placeholder="Contraseña" required>
+
+                      <button type="submit" class="button">
+                            Acceder
+                        </button>
+
+                        {{#if error}}
+                        <p>{{error}}</p>
+                        {{/if}}
+                        
+                    </form>
+                  </div>
+
+                <div class="home__images">
+                    <div class="home__orbe"></div>
+
+                    <div class="home__img">
+                        <img src="img/log.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
