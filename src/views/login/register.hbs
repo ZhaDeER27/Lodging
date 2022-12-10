@@ -11,12 +11,24 @@
                     </p>
                     <form action="" method="POST" class=""> 
 
-                            <input type="text" name="Nombre" placeholder="Nombre"  required>
+                            <input type="text" name="Nombre" placeholder="Primer Nombre"  required>
+                            
+                            <input type="text" name="Nombre2" placeholder="Segundo Nombre">
+
+                            <input type="text" name="Apellido" placeholder="Primer Apellido"  required>
+                            
+                            <input type="text" name="Apellido2" placeholder="Segundo Apellido"  required>
 
                             <input type="email" name="Email" placeholder="Correo" required>
        
                             <input type="password" name="password" placeholder="Contraseña" required>
-
+                            
+                            <label for="lang">Qué eres?</label>
+                            <select name="Rol" id="Rol">
+                                    <option value="Estudiante">Estudiante</option>
+                                    <option value="Arrendatario">Arrendatario</option>
+                                 </select>
+                            
                       <button type="submit" class="button">
                             Acceder
                         </button>

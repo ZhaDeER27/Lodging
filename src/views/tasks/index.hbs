@@ -1,0 +1,48 @@
+
+    
+<section class="section" id="popular">        
+    <div class="container">
+        <h1> Habitaciones </h1>
+        {{#each habitacion}}
+            <div class="swiper-wrapper">
+                <article class="popular__card swiper-slide">                          
+                    <div class="popular__data">                               
+                            {{!-- <img src="img/p20.jpg" alt="" class="popular__img"> --}}
+                            <h2 class="popular__price">
+                                    <span>$</span>{{Precio}}
+                            </h2>
+                            <h3 class="popular__title">
+                                   {{Ciudad}}, {{Departamento}}
+                            </h3>
+                                <p class="popular__description">
+                                    {{Direccion}}
+                                </p>
+                    <form action="/tasks/delete" method="POST" class="">
+                    <input type="hidden" value={{IdHabitacion}} name="IdHabitacion">
+                    <button type="submit" class="button">
+                    <i class="bx bxs-x-square value__accordion-icon"></i></button>
+                    </form>
+                    <a href="/tasks/edit/{{id}}" class="button">
+                    <i class="fas fa-pen"></i></a>             
+                    </div>                           
+                </article>                     
+            </div>                                
+        {{/each}}  
+     </div>                     
+</section>
+          
+<!--==================== SUBSCRIBE ====================-->
+        <section class="subscribe section">
+            <div class="subscribe__container container">
+                <h1 class="subscribe__title">
+                    Oferta tu habitación
+                </h1>
+                <p class="subscribe__description">
+                    Ofrece tu pension en nuestro sitio
+                </p>
+                <a href="/create" class="button subscribe__button">
+                    Empezar
+                </a>
+            </div>
+        </section>
+  

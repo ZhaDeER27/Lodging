@@ -7,6 +7,8 @@ const session = require('express-session');
 const bodyParser = require('body-parser');
 const loginRoutes = require('./routes/login');
 const { login } = require('./controllers/logincontroller');
+const tasksRoutes = require('./routes/tasks');
+
 
 const app = express();
 app.set('port', 4000);
@@ -39,6 +41,8 @@ app.use(session({
 }));
 
 app.use('/', loginRoutes);
+
+app.use('/', tasksRoutes);
 
 app.listen(app.get('port'), ()=> {
     console.log('Listening on port ', app.get('port'));

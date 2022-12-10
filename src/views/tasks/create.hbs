@@ -1,0 +1,43 @@
+ 
+  <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Información 
+                    </h1>
+                    <p class="home__description">
+                        
+                    </p>
+                    <form action="" method="POST" class=""> 
+
+                            <input type="text" name="Nombre_Habitacion" placeholder="Nombre de la Habitación"  required>
+                            
+                            <label for="lang">Estado</label>
+                            <select name="estadoHabi" id="estadoHabi">
+                                    <option value="Ocupada">Ocupada</option>
+                                    <option value="Libre">Libre</option>
+                                 </select>
+
+                            <input type="text" name="Descripcion" placeholder="Descripcion">
+
+                            <input type="number" name="Precio" placeholder="Precio"  required>
+
+                            <input type="text" name="Ciudad" placeholder="Ciudad"  required>
+
+                            <input type="text" name="Departamento" placeholder="Departamento"  required>
+
+                            <input type="text" name="Direccion" placeholder="Direccion" required> 
+                            
+                            <input type="file" name="Imagen" placeholder="Fotos" >
+                         
+                      <button type="submit" class="button">
+                            Agregar
+                        </button>
+
+                        {{!-- {{#if error}}
+                        <p>{{error}}</p>
+                        {{/if}} --}}
+                        
+                    </form>
+                </div>
+                 </section>
